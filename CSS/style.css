@@ -1,0 +1,232 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+.header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.header-section {
+    display: flex;
+    /* align-items: center; */
+    height: 40px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    /* DEBUG */
+    background-color: burlywood;
+}
+
+/* HEADER LOGO */
+.header-logo {
+    min-width: 150px;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+/* HEADER MENU */
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* HEADER LOGIN */
+.header-login {
+    min-width: 150px;
+    text-align: right;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+/* MAIN */
+
+/* FIRST SECTION */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: blue;
+}
+
+.first-section {
+    height: 400px;
+    width: 50%;
+    align-self: center;
+    /* DEBUG */
+    background-color: violet;
+
+}
+
+/* SECOND SECTION */
+.details-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: white;
+}
+
+.second-section {
+    display: flex;
+    height: 400px;
+    width: 60%;
+    align-self: center;
+    /* DEBUG */
+    background-color: blue;
+}
+
+.image {
+    width: 60%;
+    /* DEBUG */
+    background-color: skyblue;
+}
+
+.info {
+    width: 40%;
+    /* DEBUG */
+    background-color: plum;
+}
+
+/* THIRD SECTRION */
+.details-section3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: lightgrey;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    width: 60%;
+    align-self: center;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+/* FOURTH SECTION */
+.details-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: white;
+}
+
+.fourth-section {
+    display: flex;
+    height: 400px;
+    width: 60%;
+    align-self: center;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+/* FIFTH SECTION */
+.details-section5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 1000px;
+    /* DEBUG */
+    background-color: lightgrey;
+}
+
+.info5 {
+    width: 60%;
+    height: 800px;
+    align-self: center;
+    /* DEBUG */
+    background-color: green;
+}
+
+/* SIXTH SECTION */
+.details-section6 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: rgb(20, 20, 58);
+}
+
+.sixth-section {
+    display: flex;
+    width: 60%;
+    height: 400px;
+    align-self: center;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+.footer-containers {
+    width: 150px;
+    /* DEBUG */
+    background-color: aqua;
+    border: 1px solid white;
+}
+
+.socials {
+    flex-grow: 1;
+    /* DEBUG */
+    background-color: pink;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: rgb(20, 20, 58);
+    border-top: 1px solid white;
+}
+
+.end-section {
+    display: flex;
+    width: 60%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.logo {
+    height: 50px;
+    /* DEBUG */
+    background-color: pink;
+}
+
+.registration {
+    height: 50px;
+    /* DEBUG */
+    background-color: pink;
+}
