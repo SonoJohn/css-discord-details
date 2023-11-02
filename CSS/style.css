@@ -143,6 +143,13 @@ h1 {
     text-align: center;
 }
 
+.main-buttons {
+    justify-content: center;
+    gap: 20px;
+    font-size: larger;
+}
+
+
 /* SECOND SECTION */
 .details-section {
     display: flex;
