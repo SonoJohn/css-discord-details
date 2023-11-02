@@ -19,7 +19,7 @@ img {
     text-align: center;
     border-radius: 40px;
     /* DEBUG */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .link {
@@ -126,7 +126,7 @@ li {
     padding: 50px 0;
     /* DEBUG */
     /* background-color: violet; */
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
 }
 
 .main-details {
@@ -143,12 +143,23 @@ h1 {
     text-align: center;
 }
 
+/* BUTTONS */
 .main-buttons {
     justify-content: center;
     gap: 20px;
     font-size: larger;
 }
 
+.download-button {
+    color: black;
+    background-color: white;
+    padding: 14px 32px;
+}
+
+.open-button {
+    background-color: rgb(28, 26, 36);
+    padding: 14px 32px;
+}
 
 /* SECOND SECTION */
 .details-section {
