@@ -61,10 +61,7 @@ h2 {
 
 /* HEADER LOGO */
 .header-logo {
-    align-items: center;
-    min-width: 150px;
-    font-size: larger;
-    font-weight: 600;
+    max-width: 150px;
     /* DEBUG */
     /* border: 2px solid black; */
 }
@@ -297,21 +294,29 @@ h3 {
     width: 60%;
     height: 400px;
     align-self: center;
+    color: white;
     /* DEBUG */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .footer-containers {
     width: 150px;
     /* DEBUG */
-    background-color: aqua;
+    /* background-color: aqua; */
     border: 1px solid white;
 }
 
-.socials {
+.socials-container {
+    padding: 50px;
     flex-grow: 1;
     /* DEBUG */
-    background-color: pink;
+    /* background-color: pink; */
+}
+
+.socials {
+    font-size: 20px;
+    margin-top: 40px;
+    gap: 20px;
 }
 
 /* FOOTER */
