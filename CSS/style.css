@@ -15,6 +15,18 @@ img {
     display: flex;
 }
 
+.button {
+    text-align: center;
+    border-radius: 40px;
+    /* DEBUG */
+    /* border: 1px solid red; */
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* HEADER */
 .header {
     display: flex;
@@ -44,7 +56,7 @@ img {
     font-size: larger;
     font-weight: 600;
     /* DEBUG */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .dollar {
@@ -58,9 +70,9 @@ img {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    gap: 10px;
+    gap: 30px;
     /* DEBUG */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .header-menu a {
@@ -74,10 +86,17 @@ li {
 
 /* HEADER LOGIN */
 .header-login {
+    justify-content: end;
     min-width: 150px;
-    text-align: right;
     /* DEBUG */
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.login-button {
+    color: black;
+    background-color: white;
+    width: 70px;
+    padding: 7px 16px;
 }
 
 /* MAIN */
@@ -88,8 +107,9 @@ li {
     justify-content: center;
     align-content: center;
     height: 500px;
+    background-color: rgb(51, 48, 224);
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .first-section {
