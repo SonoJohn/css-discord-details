@@ -32,6 +32,13 @@ p {
     line-height: 30px;
 }
 
+h2 {
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+
+.image {}
+
 /* HEADER */
 .header {
     display: flex;
@@ -177,7 +184,7 @@ h1 {
     width: 60%;
     align-self: center;
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .image {
@@ -188,6 +195,7 @@ h1 {
 
 .info {
     width: 40%;
+    padding: 50px;
     /* DEBUG */
     background-color: plum;
 }
