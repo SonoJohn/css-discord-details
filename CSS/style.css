@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
 
 /* HEADER */
 .header {
@@ -12,26 +21,35 @@
     height: 80px;
     justify-content: center;
     align-items: center;
+    background-color: rgb(51, 48, 224);
     /* DEBUG */
-    background-color: lightblue;
 }
 
 .header-section {
     display: flex;
+    color: white;
     /* align-items: center; */
     height: 40px;
     width: 60%;
     justify-content: space-between;
     align-items: center;
     /* DEBUG */
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 /* HEADER LOGO */
 .header-logo {
+    align-items: center;
     min-width: 150px;
+    font-size: larger;
+    font-weight: 600;
     /* DEBUG */
     border: 2px solid black;
+}
+
+.dollar {
+    height: 40px;
+    width: 40ì0px;
 }
 
 /* HEADER MENU */
@@ -43,6 +61,11 @@
     gap: 10px;
     /* DEBUG */
     border: 2px solid black;
+}
+
+.header-menu a {
+    color: inherit;
+    text-decoration: none;
 }
 
 li {
