@@ -37,8 +37,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-.image {}
-
 /* HEADER */
 .header {
     display: flex;
@@ -206,8 +204,8 @@ h1 {
     justify-content: center;
     align-content: center;
     height: 500px;
-    /* DEBUG */
     background-color: rgb(247, 247, 247);
+    /* DEBUG */
 }
 
 .third-section {
@@ -243,18 +241,38 @@ h1 {
 .details-section5 {
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 1000px;
+    height: 1200px;
+    background-color: rgb(247, 247, 247);
     /* DEBUG */
-    background-color: lightgrey;
 }
 
 .info5 {
     width: 60%;
-    height: 800px;
+    height: 1200px;
     align-self: center;
+    text-align: center;
+
     /* DEBUG */
-    background-color: green;
+    /* background-color: green; */
+}
+
+.title-sec5 {
+    margin-top: 100px;
+}
+
+.image5 {
+    padding-top: 70px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.download-button-sec5 {
+    width: fit-content;
+    color: white;
+    background-color: rgb(51, 48, 224);
 }
 
 /* SIXTH SECTION */
