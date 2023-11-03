@@ -48,6 +48,7 @@ h2 {
 
 li {
     margin-bottom: 10px;
+    font-size: 14px;
 }
 
 /* HEADER */
@@ -305,23 +306,24 @@ h3 {
 .sixth-section {
     display: flex;
     width: 60%;
-    height: 400px;
+    height: 350px;
     align-self: center;
     color: white;
+    border-bottom: 1px solid rgb(51, 48, 224);
     /* DEBUG */
     /* background-color: blueviolet; */
 }
 
 .footer-containers {
-    width: 150px;
+    width: 180px;
     /* DEBUG */
     /* background-color: aqua; */
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 /* SOCIALS */
 .socials-container {
-    padding: 50px;
+    padding-top: 30px;
     flex-grow: 1;
     /* DEBUG */
     /* background-color: pink; */
@@ -341,10 +343,9 @@ h3 {
     display: flex;
     height: 120px;
     justify-content: center;
-    align-items: center;
-    /* DEBUG */
     background-color: rgb(20, 20, 58);
-    border-top: 1px solid white;
+    /* DEBUG */
+    /* border-top: 1px solid white; */
 }
 
 .end-section {
@@ -352,7 +353,6 @@ h3 {
     width: 60%;
     height: 70px;
     justify-content: space-between;
-    align-items: center;
     /* DEBUG */
     background-color: lightblue;
 }
