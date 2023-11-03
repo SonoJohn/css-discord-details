@@ -80,11 +80,6 @@ li {
     /* border: 2px solid black; */
 }
 
-.dollar {
-    height: 40px;
-    width: 40ì0px;
-}
-
 /* HEADER MENU */
 .header-menu {
     display: flex;
@@ -309,7 +304,6 @@ h3 {
     height: 350px;
     align-self: center;
     color: white;
-    border-bottom: 1px solid rgb(51, 48, 224);
     /* DEBUG */
     /* background-color: blueviolet; */
 }
@@ -353,18 +347,30 @@ h3 {
     width: 60%;
     height: 70px;
     justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(51, 48, 224);
     /* DEBUG */
-    background-color: lightblue;
 }
 
 .logo {
     height: 50px;
     /* DEBUG */
-    background-color: pink;
+    /* background-color: pink; */
 }
 
+
 .registration {
-    height: 50px;
+
     /* DEBUG */
-    background-color: pink;
+    /* background-color: pink; */
+}
+
+.registration-btn {
+    font-size: 12px;
+    padding: 7px 16px;
+    color: white;
+    background-color: rgb(51, 48, 224);
+    /* DEBUG */
+    /* border: 1px solid red; */
+
 }
