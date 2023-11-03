@@ -374,3 +374,7 @@ h3 {
     /* border: 1px solid red; */
 
 }
+
+.discord-logo {
+    filter: brightness(10);
+}
